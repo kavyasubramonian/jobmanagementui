@@ -1,0 +1,16 @@
+.jumbotron{
+  
+    text-align: center!important;
+    color: white;
+    background-color: #191919 !important;
+/*    background-image: url('https://i.pinimg.com/originals/5d/08/d6/5d08d6ad8331d8e1fc603029a8ea1e5b.jpg');*/
+    background-repeat: no-repeat,repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    font-weight:normal;
+    border-radius: 50px;
+    max-width: 100%;
+  }
+
+  /*https://i.pinimg.com/originals/5d/08/d6/5d08d6ad8331d8e1fc603029a8ea1e5b.jpg*/

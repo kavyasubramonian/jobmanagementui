@@ -1,0 +1,50 @@
+.flex-container {
+  display: flex;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.flex-container > div {
+	background-color: #fff;
+	margin: 10px;
+	padding: 20px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.flex-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.btn{
+	background-color: #3f51b5; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-width: 300px;
+	outline:none;  
+	transition: 0.3s;
+}
+
+.btn:hover {
+	background: #3f51b5 radial-gradient(circle, transparent 1%, #3f51b5 1%) center/15000%;
+}
+
+.btn::-moz-focus-inner {
+	border: 0;
+  }
+  
+
+.btn:active {
+	background-color: #24327d;
+	background-size: 100%;
+	transition: background 0s;
+	
+}
