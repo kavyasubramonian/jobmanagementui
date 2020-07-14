@@ -1,0 +1,11 @@
+body .bg-dark{
+  background-color: black;
+}
+
+body{
+  background-color: black;
+}
+
+.App{
+background-color: white!important;
+}
